@@ -1,6 +1,8 @@
 let app = require("./server/config/app");
 let debug = require("debug")("comp308-w2019-midterm:server");
 let http = require("http");
+const dotenv = require("dotenv")
+dotenv.config()
 
 
 /**
